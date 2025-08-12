@@ -1,3 +1,32 @@
+# Toy Tales
+This is a simple React CRUD application for managing a list of toys. Users can view all toys, add a new toy, like their favorite toys, and donate (delete) toys they no longer want.
+
+## Features:
+- View All Toys: Fetch and display all toys on page load.
+- Add New Toy: Submit a form to add a new toy to the database.
+- Like a Toy: Click the like button to increase a toy's like count.
+- Donate to GoodWill: Remove a toy from the collection by clicking the donate button.
+
+## Installation:
+1. Install dependencies via:
+    npm install
+2. Start the development server via:
+    npm run dev
+3. Start the backend JSON server via:
+  npm run server
+The frontend will run on http://localhost:5173/
+The backend JSON server will run on http://localhost:3001/toys
+
+## Screenshots:
+![Toy Tales Screenshot 1](./assets/ToyTaleScreenshot1.png)
+![Toy Tales Screenshot 2](./assets/ToyTaleScreenshot2.png)
+![Toy Tales Screenshot 3](./assets/ToyTaleScreenshot3.png)
+
+Thank you and enjoy!
+
+
+------
+
 # Practice Challenge: Toy Tales
 
 You've got a friend in need! Again!
